@@ -1,6 +1,6 @@
 # React Password Validator
 
-Recreate a password validator in React. Your final product should function similarly to [this deployed version](http://oceanic-sense.surge.sh/) of the component.
+Recreate a password validator in React. Your final product should function similarly to [this deployed version](excellent-tail.surge.sh) of the component.
 
 ## Getting Started
 
