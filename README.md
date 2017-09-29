@@ -17,7 +17,7 @@ Take the existing markup rendered from the `Validator` component in `src/Validat
 For this exercise, don't be concerned about the distinction between container and presentational components. 
 
 1. Add your form inputs in `Validator.js`.
-2. †Add a constructor method and initialize state. Your state should include `email`, `password`, `passwordConfirm`, and `valid` properties.
+2. Add a constructor method and initialize state. Your state should include `email`, `password`, `passwordConfirm`, and `valid` properties.
 
 ```jsx
     this.state = {
@@ -32,7 +32,7 @@ For this exercise, don't be concerned about the distinction between container an
 4. Bind the methods in the constructor.
 5. Display a message if the user's inputs are valid.
 
-†    
+
   
 ## Resources
 
