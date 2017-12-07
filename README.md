@@ -33,9 +33,16 @@ For this exercise, don't be concerned about the distinction between container an
 5. Display a message if the user's inputs are valid.
 
 ### Bonus
+
 * Make sure passwords are at least 7 characters in length.
-* Make sure passwords includes a number and a special character.
+* Make sure passwords includes a number and a special character. (Check out [Regex](http://emailregex.com/))
 * Validate the email to make sure it includes an `@` sign.
+* Highlight the inputs where the errors occurred.  
+
+### Double Mega Bonus
+
+* Include inputs for a date of birth with at least one validator.
+* Check out the [Luhn Algorithm](https://en.wikipedia.org/wiki/Luhn_algorithm) and try your hand in validating a credit card number.
 
 ## Resources
 
