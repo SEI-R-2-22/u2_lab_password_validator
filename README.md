@@ -14,9 +14,9 @@ Take the existing markup rendered from the `Validator` component in `src/Validat
 
 ## Getting Started
 
-For this exercise, don't be concerned about the distinction between container and presentational components. 
+For this exercise, don't be concerned about the distinction between container and presentational components.
 
-1. Add your form inputs in `Validator.js`.
+1. Add your form inputs in `Validator.js`. Include inputs for `email`, `password`, `passwordConfirm`, and a `submit` button.
 2. Add a constructor method and initialize state. Your state should include `email`, `password`, `passwordConfirm`, and `valid` properties.
 
 ```jsx
@@ -32,8 +32,11 @@ For this exercise, don't be concerned about the distinction between container an
 4. Bind the methods in the constructor.
 5. Display a message if the user's inputs are valid.
 
+### Bonus
+* Make sure passwords are at least 7 characters in length.
+* Make sure passwords includes a number and a special character.
+* Validate the email to make sure it includes an `@` sign.
 
-  
 ## Resources
 
 - [Forms in React](https://facebook.github.io/react/docs/forms.html)
