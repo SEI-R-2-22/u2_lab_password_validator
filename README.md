@@ -34,6 +34,7 @@ For this exercise, don't be concerned about the distinction between container an
 
 ### Bonus
 
+* Make sure validation message doesn't show up until the User presses submit.  
 * Make sure passwords are at least 7 characters in length.
 * Make sure passwords includes a number and a special character. (Check out [Regex](http://emailregex.com/))
 * Validate the email to make sure it includes an `@` sign.
