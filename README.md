@@ -12,9 +12,9 @@ Recreate a password validator in React. Your final product should function simil
 
 Take the existing markup rendered from the `Validator` component in `src/Validator.js` and change into a fully functioning component. This means that you only have to add functionality -- not markup or styling -- to the existing code!
 
-## Getting Started
-
 For this exercise, don't be concerned about the distinction between container and presentational components.
+
+## Steps
 
 1. Add your form inputs in `Validator.js`. Include inputs for `email`, `password`, `passwordConfirm`, and a `submit` button.
 2. Add a constructor method and initialize state. Your state should include `email`, `password`, `passwordConfirm`, and `valid` properties.
