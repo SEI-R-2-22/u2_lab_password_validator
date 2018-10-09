@@ -69,7 +69,10 @@ For the bonus:
 
 ## Resources
 
-- [Forms in React](https://facebook.github.io/react/docs/forms.html)
+- [Thinking in React](https://facebook.github.io/react/docs/thinking-in-react.html)
+- [Forms in React](https://facebook.github.io/react/docs/forms.html#controlled-components)
+- [Components and Props](https://facebook.github.io/react/docs/components-and-props.html)
+- [Adding State to a Component](https://facebook.github.io/react/docs/state-and-lifecycle.html#adding-local-state-to-a-class)
 - [Bonus: Email Regex](http://emailregex.com/)
 
 ## Plagiarism
