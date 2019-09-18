@@ -8,8 +8,8 @@ component.
 
 ## Prerequisites
 
-* React
-* Components, state, and props
+- React
+- Components, state, and props
 
 ## Instructions
 
@@ -39,11 +39,11 @@ and presentational components.
 
 ```jsx
 this.state = {
-  email: '',
-  password: '',
-  passwordConfirm: '',
+  email: "",
+  password: "",
+  passwordConfirm: "",
   valid: true
-}
+};
 ```
 
 3. Add methods for handling inputs for password and password confirm, and
@@ -56,16 +56,18 @@ this.state = {
 
 For the bonus:
 
-* Make sure validation message doesn't show up until the User presses submit.
-* Make sure passwords are at least 7 characters in length.
-* Make sure passwords includes a number and a special character. (Check out [Regex](http://emailregex.com/))
-* Validate the email to make sure it includes an `@` sign.
-* Highlight the inputs where the errors occurred.
+- Make sure validation message doesn't show up until the User presses submit.
+- Make sure passwords are at least 7 characters in length.
+- Make sure passwords includes a number and a special character. (Check out
+  [Regex](http://emailregex.com/))
+- Validate the email to make sure it includes an `@` sign.
+- Highlight the inputs where the errors occurred.
 
 ## Double Mega Bonus
 
-* Include inputs for a date of birth with at least one validator.
-* Check out the [Luhn Algorithm](https://en.wikipedia.org/wiki/Luhn_algorithm) and try your hand in validating a credit card number.
+- Include inputs for a date of birth with at least one validator.
+- Check out the [Luhn Algorithm](https://en.wikipedia.org/wiki/Luhn_algorithm)
+  and try your hand in validating a credit card number.
 
 ## Resources
 
@@ -77,7 +79,9 @@ For the bonus:
 
 ## Plagiarism
 
-Take a moment to refamiliarize yourself with the [Plagiarism policy](https://git.generalassemb.ly/DC-WDI/Administrative/blob/master/plagiarism.md). Plagiarized work will not be accepted.
+Take a moment to refamiliarize yourself with the
+[Plagiarism policy](https://git.generalassemb.ly/DC-WDI/Administrative/blob/master/plagiarism.md).
+Plagiarized work will not be accepted.
 
 ## [License](LICENSE)
 
