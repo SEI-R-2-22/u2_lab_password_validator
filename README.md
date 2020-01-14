@@ -13,61 +13,49 @@ component.
 
 ## Instructions
 
-1. Fork and clone this repository.
-1. Change into the new directory.
-1. Install dependencies.
-1. Fulfill the listed requirements.
-
-Please turn in your submission by the deadline on your cohort calendar.
+1. Fork and clone this repository into your `sandbox` directory.
+1. Change into the new directory with `cd password-validator.
+1. Install dependencies with `npm install`.
+1. Open the project in VS Code with `code .`.
+1. Back in the Terminal type `npm run start` to start your development server.
+1. Complete the [requirements](requirements) listed below.
+1. Create a pull request when done.
 
 ## Requirements
 
 Take the existing markup rendered from the `Validator` component in
 [`src/Validator.js`](src/Validator.js) and change into a fully functioning
-component. This means that you only have to add functionality - not markup or
-styling - to the existing code!
-
-For this exercise, don't be concerned about the distinction between container
-and presentational components.
+component. This means that you only have to add functionality - no JSX or
+styling - to the existing code.
 
 ## Steps
 
-1. Add your form inputs in `Validator.js`. Include inputs for `email`,
-   `password`, `passwordConfirm`, and a `submit` button.
-2. Add a constructor method and initialize state. Your state should include
-   `email`, `password`, `passwordConfirm`, and `valid` properties.
+1. Add a constructor method and initialize state. Your state should include
+   `username`, `password`, `passwordConfirm`, and `valid` properties.
 
 ```jsx
 this.state = {
-  email: "",
-  password: "",
-  passwordConfirm: "",
+  username: '',
+  password: '',
+  passwordConfirm: '',
   valid: true
 };
 ```
 
-3. Add methods for handling inputs for password and password confirm, and
-   checking that the passwords match. Be sure to update state in these methods
-   using `.setState`
-4. Bind the methods in the constructor.
-5. Display a message if the user's inputs are valid.
+2. Add a methods for handling each input's onChange event.
+3. Add a method to handle the form submission. Remember to prevent the default behavior of a form being submitted.
+4. Display a message if the user's inputs are valid or invalid.
 
 ## Bonus
 
 For the bonus:
 
-- Make sure validation message doesn't show up until the User presses submit.
+- Add a class of `invalid` or `valid` to the message conditionally (CSS already exists).
+- Add a cancel button that clears the fields when clicked. (hint: make sure it has `type="button"`)
+- Update the validation message any time the user types something in the confirmPassword input.
 - Make sure passwords are at least 7 characters in length.
 - Make sure passwords includes a number and a special character. (Check out
   [Regex](http://emailregex.com/))
-- Validate the email to make sure it includes an `@` sign.
-- Highlight the inputs where the errors occurred.
-
-## Double Mega Bonus
-
-- Include inputs for a date of birth with at least one validator.
-- Check out the [Luhn Algorithm](https://en.wikipedia.org/wiki/Luhn_algorithm)
-  and try your hand in validating a credit card number.
 
 ## Resources
 
@@ -75,7 +63,6 @@ For the bonus:
 - [Forms in React](https://facebook.github.io/react/docs/forms.html#controlled-components)
 - [Components and Props](https://facebook.github.io/react/docs/components-and-props.html)
 - [Adding State to a Component](https://facebook.github.io/react/docs/state-and-lifecycle.html#adding-local-state-to-a-class)
-- [Bonus: Email Regex](http://emailregex.com/)
 
 ## Plagiarism
 
