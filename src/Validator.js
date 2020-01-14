@@ -16,9 +16,9 @@ class Validator extends Component {
           <input
             type="password"
             placeholder="Confirm password"
-            id="confirm-password"
+            id="passwordConfirm"
           />
-          <label htmlFor="confirm-password">Confirm password</label>
+          <label htmlFor="passwordConfirm">Confirm password</label>
 
           <button type="submit">Sign Up</button>
           <p>Passwords must match.</p>
