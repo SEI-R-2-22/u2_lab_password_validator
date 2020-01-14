@@ -51,7 +51,7 @@ this.state = {
 For the bonus:
 
 - Add a class of `invalid` or `valid` to the message conditionally (CSS already exists).
-- Add a cancel button that clears the fields when clicked. (hint: make sure it has `type="button"`)
+- Add a cancel button that clears the fields when clicked. There is a cancel class you can add to the button to make it display red. (hint: make sure it has `type="button"`)
 - Update the validation message any time the user types something in the confirmPassword input.
 - Make sure passwords are at least 7 characters in length.
 - Make sure passwords includes a number and a special character. (Check out
