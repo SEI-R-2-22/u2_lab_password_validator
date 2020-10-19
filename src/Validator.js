@@ -1,8 +1,7 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './Validator.css';
 
-class Validator extends Component {
-  render() {
+function Validator () {
     return (
       <div className="form">
         <h1>Sign Up</h1>
@@ -25,7 +24,6 @@ class Validator extends Component {
         </form>
       </div>
     );
-  }
 }
 
 export default Validator;
