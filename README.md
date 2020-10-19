@@ -14,7 +14,7 @@ component.
 ## Instructions
 
 1. Fork and clone this repository into your `sandbox` directory.
-1. Change into the new directory with `cd password-validator.
+1. Change into the new directory with `cd password-validator`.
 1. Install dependencies with `npm install`.
 1. Open the project in VS Code with `code .`.
 1. Back in the Terminal type `npm run start` to start your development server.
@@ -25,26 +25,15 @@ component.
 
 Take the existing markup rendered from the `Validator` component in
 [`src/Validator.js`](src/Validator.js) and change into a fully functioning
-component. This means that you only have to add functionality - no JSX or
-styling - to the existing code.
+component. 
 
 ## Steps
 
-1. Add a constructor method and initialize state. Your state should include
+1. Add and initialize state for your form. Your state should include
    `username`, `password`, `passwordConfirm`, and `valid` properties.
-
-```jsx
-this.state = {
-  username: '',
-  password: '',
-  passwordConfirm: '',
-  valid: true
-};
-```
-
-2. Add a methods for handling each input's onChange event.
-3. Add a method to handle the form submission. Remember to prevent the default behavior of a form being submitted.
-4. Display a message if the user's inputs are valid or invalid.
+1. Add a methods for handling each input's onChange event.
+1. Add a method to handle the form submission. Remember to **prevent the default** behavior of a form being submitted.
+1. Display a message if the user's inputs are valid or invalid.
 
 ## Bonus
 
@@ -62,7 +51,7 @@ For the bonus:
 - [Thinking in React](https://facebook.github.io/react/docs/thinking-in-react.html)
 - [Forms in React](https://facebook.github.io/react/docs/forms.html#controlled-components)
 - [Components and Props](https://facebook.github.io/react/docs/components-and-props.html)
-- [Adding State to a Component](https://facebook.github.io/react/docs/state-and-lifecycle.html#adding-local-state-to-a-class)
+- [Adding State to a Component](https://reactjs.org/docs/hooks-state.html)
 
 ## Plagiarism
 
