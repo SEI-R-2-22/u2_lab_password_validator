@@ -1,10 +1,11 @@
-import React, { Component } from "react";
-import Validator from "./Validator";
+import React from "react";
+import Validator from "./components/Validator";
 
-class App extends Component {
-  render() {
-    return <Validator />;
-  }
+const App = () => {
+
+  return (
+    <Validator />
+  )
 }
 
 export default App;
