@@ -11,12 +11,12 @@ In this lab, we'll recreate a password validator in React. Your final product sh
 - `Fork` and `clone` this repository
 - `cd` into the new directory
 - `npm install` to install our dependencies
-- open the project in VS Code with `code .`
+- open the project in VSCode with `code .`
 - run `npm start` to spin up our app
 
 ## Instructions
 
-Take the existing markup rendered from the `Validator` component in [`src/Validator.js`](src/Validator.js) and change into a fully functioning component. 
+Take the existing markup rendered from the `Validator` component in [`src/Validator.jsx`](src/Validator.jsx) and change into a fully functioning component. 
 
 ## Steps
 

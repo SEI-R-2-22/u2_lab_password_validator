@@ -1,5 +1,4 @@
-import React from "react";
-import Validator from "./components/Validator";
+import Validator from "./components/Validator"
 
 const App = () => {
 
@@ -8,4 +7,4 @@ const App = () => {
   )
 }
 
-export default App;
+export default App

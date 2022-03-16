@@ -1,7 +1,7 @@
-import React from 'react'
 import '../styles/Validator.css'
 
 const Validator = () => {
+  
   return (
     <div className="form">
       <h1>Sign Up</h1>
